@@ -15,6 +15,7 @@ BuildRequires:	perl-devel
 BuildRequires:	perl(Devel::CheckOS)
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test::Pod)
+BuildRequires:	perl(URI::Escape)
 BuildRequires:	perl(Test::Pod::Coverage)
 BuildRequires:	perl(UNIVERSAL::require)
 BuildArch:	noarch
