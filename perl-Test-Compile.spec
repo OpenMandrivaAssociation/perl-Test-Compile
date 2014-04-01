@@ -1,15 +1,16 @@
 %define upstream_name    Test-Compile
-%define upstream_version 0.24
+%define upstream_version 1.0.1
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.24
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Check whether Perl module files compile correctly
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-Compile-0.24.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-v%{upstream_version}.tar.gz
 
 BuildRequires:  perl-devel
 BuildRequires:  perl(Devel::CheckOS)
@@ -75,5 +76,6 @@ make test
 
 * Tue Jan 13 2009 cpan2dist 0.08-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
