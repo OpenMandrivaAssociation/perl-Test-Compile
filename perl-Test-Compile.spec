@@ -26,7 +26,7 @@ Check Perl module files for errors or warnings in a test file.
 
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-v%{upstream_version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
