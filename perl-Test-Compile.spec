@@ -1,9 +1,9 @@
 %define upstream_name    Test-Compile
-%define upstream_version 1.0.1
+%define upstream_version 1.3.0
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Check whether Perl module files compile correctly
 
