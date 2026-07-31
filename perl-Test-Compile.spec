@@ -1,7 +1,7 @@
 %define upstream_name    Test-Compile
 
 Name:		perl-%{upstream_name}
-Version:	3.1.0
+Version:	3.3.3
 Release:	1
 
 Summary:	Check whether Perl module files compile correctly
@@ -25,7 +25,7 @@ BuildArch:	noarch
 Check Perl module files for errors or warnings in a test file.
 
 %prep
-%autosetup -p1 -n %{upstream_name}-v%{version}
+%autosetup -p1 -n Test-Compile-v3.3.3
 perl Makefile.PL INSTALLDIRS=vendor
 
 %build
